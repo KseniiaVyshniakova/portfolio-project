@@ -170,6 +170,26 @@ footer .social-links a:hover {
   color: #ffff;
   background: var(--branding-color);
 }
+.source-link {
+  text-decoration: none;
+  color: #20151c;  
+}
+.source-link:hover, .contact-link:hover {
+  color: var(--branding-color);
+}
+
+.contact-content h3 {
+  font-size: 24px;
+  font-family: var(--heading-font-family); 
+
+ }
+.contact-link {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  text-decoration: none;
+  color: #20151c;  
+}
+ 
 
 @media (max-width: 820px) {
   h1 {
@@ -207,10 +227,17 @@ footer .social-links a:hover {
   nav a {
     font-size: 14px;
   }
+
+  footer h3 {
+    font-size: 36px;
+  }
   footer .email-link {
     font-size: 18px;
   }
-  footer p {
+  footer p, .source-link {
     font-size: 12px;
   }
+.contact-link {
+  font-size: 18px;
+}
 }
