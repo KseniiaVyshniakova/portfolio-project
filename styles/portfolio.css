@@ -190,6 +190,14 @@ footer .social-links a:hover {
   color: #20151c;  
 }
  
+.certificate h3 {
+  font-size: 14px;
+  
+}
+
+.greeting {
+  margin-top: 140px;
+}
 
 @media (max-width: 820px) {
   h1 {
@@ -240,10 +248,11 @@ footer .social-links a:hover {
 .contact-link {
   font-size: 18px;
 }
+
+.greeting {
+  margin-top: 0px;
+}
 }
 
-.certificate h3 {
-  font-size: 14px;
-  
-}
+
 
